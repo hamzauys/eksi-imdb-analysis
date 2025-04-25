@@ -15,7 +15,7 @@ This project analyzes the relationship between the number of entries in **Ekşi 
 - **Machine Learning** (basic regression model to estimate IMDb score from entry count)
 
 ## Dataset
-The data includes a curated list of over 80 films released between **2008 and 2024**, selected to span a wide range of genres, popularity levels, and discussion volumes.
+The data includes a curated list of over 130 films released between **2008 and 2024**, selected to span a wide range of genres, popularity levels, and discussion volumes.
 
 For each film:
 - **Slug**: Unique identifier used for scraping Ekşi Sözlük entries
