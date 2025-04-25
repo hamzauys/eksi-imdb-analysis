@@ -40,33 +40,34 @@ The scatter plot below visualizes the relationship between Ekşi entry count and
 dsa210-project/
 ├── code/
 │   ├── shared/
-│   │   ├── analyze_combined_data.py        # joint analysis
+│   │   └── analyze_combined_data.py  # joint analysis
 │   ├── 2008/
 │   │   ├── scraping_2008.py
 │   │   ├── imdb_2008.py
 │   │   ├── eksi_entry_counts.csv
 │   │   ├── imdb_scores.csv
-│   │   ├── entry_vs_imdb.png
+│   │   └── entry_vs_imdb.png
 │   ├── 2012/
 │   │   ├── scraping_2012.py
 │   │   ├── imdb_2012.py
 │   │   ├── eksi_entry_counts.csv
 │   │   ├── imdb_scores.csv
-│   │   ├── entry_vs_imdb.png
+│   │   └── entry_vs_imdb.png
 │   ├── 2016/
 │   │   ├── scraping_2016.py
 │   │   ├── imdb_2016.py
 │   │   ├── eksi_entry_counts.csv
 │   │   ├── imdb_scores.csv
-│   │   ├── entry_vs_imdb.png
+│   │   └── entry_vs_imdb.png
 │   ├── 2020/
 │   │   ├── scraping_2020.py
 │   │   ├── imdb_2020.py
 │   │   ├── eksi_entry_counts.csv
 │   │   ├── imdb_scores.csv
-│   │   ├── entry_vs_imdb.png
+│   │   └── entry_vs_imdb.png
 ├── README.md
-├── report.pdf
+└── report.pdf
+
 
 
 ## Running the Code
