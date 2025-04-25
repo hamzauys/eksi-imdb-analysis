@@ -37,6 +37,7 @@ This indicates a **moderate positive correlation** between the number of Ekşi S
 The scatter plot below visualizes the relationship between Ekşi entry count and IMDb score. A trend line from simple linear regression is included to highlight the overall trend.
 ![2008](https://github.com/user-attachments/assets/b88aa180-6177-4d82-b6a9-780d7e79b60d)
 
+```text
 dsa210-project/
 ├── code/
 │   ├── shared/
@@ -67,6 +68,8 @@ dsa210-project/
 │   │   └── entry_vs_imdb.png
 ├── README.md
 └── report.pdf
+```
+
 
 
 
