@@ -100,13 +100,13 @@ Example:python code/2008/2008imdb.py
 ```bash
 python analyze_combined_data.py
 ```
-This will generate:
+## This will generate:
 
-2008eksi_entry_counts.csv
+- 2008eksi_entry_counts.csv
 
-2008imdb_scores.csv
+- 2008imdb_scores.csv
 
-2008.png (a visual plot of entry count vs IMDb score)
+- 2008.png (a visual plot of entry count vs IMDb score)
 
 
 
