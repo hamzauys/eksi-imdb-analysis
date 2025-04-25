@@ -12,7 +12,6 @@ This project analyzes the relationship between the number of entries in **Ekşi 
 - **Data Cleaning and Preprocessing** (handling missing values, formatting data)
 - **Exploratory Data Analysis (EDA)**
 - **Statistical Analysis** (correlation tests, hypothesis testing)
-- **Machine Learning** (basic regression model to estimate IMDb score from entry count)
 
 ## Dataset
 The data includes a curated list of over 130 films released between **2008 and 2024**, selected to span a wide range of genres, popularity levels, and discussion volumes.
@@ -67,7 +66,7 @@ dsa210-project/
 │   │   ├── imdb_scores.csv
 │   │   └── entry_vs_imdb.png
 ├── README.md
-└── report.word
+└── report.docx
 ```
 
 
