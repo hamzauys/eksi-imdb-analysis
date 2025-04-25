@@ -12,6 +12,8 @@ This project analyzes the relationship between the number of entries in **Ekşi 
 - **Data Cleaning and Preprocessing** (handling missing values, formatting data)
 - **Exploratory Data Analysis (EDA)**
 - **Statistical Analysis** (correlation tests, hypothesis testing)
+- **Pearson Correlation Test** (to measure linear relationship between entry counts and IMDb ratings)
+- **Hypothesis Testing (P-value Analysis)** (to assess statistical significance of the observed correlations)
 
 ## Dataset
 The data includes a curated list of over 130 films released between **2008 and 2024**, selected to span a wide range of genres, popularity levels, and discussion volumes.
