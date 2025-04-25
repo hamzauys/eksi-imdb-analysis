@@ -31,7 +31,7 @@ For each film:
 
 This indicates a **moderate positive correlation** between the number of Ekşi Sözlük entries and IMDb scores, and the relationship is **statistically significant** at the 0.05 level.
 
-> *Note: Other release windows (e.g., 2016–2019, 2020–2024) were also tested, and results varied. Full breakdown is available in the final report or Jupyter notebook.*
+> *Note: Other release windows (e.g., 2016–2019, 2020–2024) were also tested, and results varied. The final result is available in the report document .*
 
 ## Visualization
 The scatter plot below visualizes the relationship between Ekşi entry count and IMDb score between **2008-2011** period. A trend line from simple linear regression is included to highlight the overall trend.
@@ -67,7 +67,7 @@ dsa210-project/
 │   │   ├── imdb_scores.csv
 │   │   └── entry_vs_imdb.png
 ├── README.md
-└── report.pdf
+└── report.word
 ```
 
 
