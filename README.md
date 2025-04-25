@@ -72,9 +72,42 @@ dsa210-project/
 
 
 
+##  How to Run the Code
 
-## Running the Code
-1. Run `scraping.py` to collect entry data
-2. Run `extract_imdb_scores.py` to fetch IMDb ratings
-3. Run `analyze_combined_data.py` for visualization and statistics
+This project analyzes the relationship between IMDb ratings and Ekşi Sözlük entries across different years.  
+Each year (2008, 2012, 2016, 2020) is processed **independently** with its own scripts and data files.
+
+---
+
+###  The Steps to Run (Repeat for Each Period)
+
+#### 1. Run the Ekşi Sözlük scraping script
+This collects the number of Ekşi Sözlük entries for that year.
+```bash
+python code/<year>/<year>.py
+Example: python code/2008/2008.py
+```
+
+#### 2. Run the IMDb rating extractor
+This fetches IMDb scores for the same movies.
+
+```bash
+python code/<year>/<year>imdb.py
+Example:python code/2008/2008imdb.py
+```
+
+#### 3. Run the analysis and visualization
+```bash
+python analyze_combined_data.py
+```
+This will generate:
+
+2008eksi_entry_counts.csv
+
+2008imdb_scores.csv
+
+2008.png (a visual plot of entry count vs IMDb score)
+
+
+
 
