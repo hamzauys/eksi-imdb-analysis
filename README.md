@@ -34,7 +34,7 @@ This indicates a **moderate positive correlation** between the number of Ekşi S
 > *Note: Other release windows (e.g., 2016–2019, 2020–2024) were also tested, and results varied. Full breakdown is available in the final report or Jupyter notebook.*
 
 ## Visualization
-The scatter plot below visualizes the relationship between Ekşi entry count and IMDb score. A trend line from simple linear regression is included to highlight the overall trend.
+The scatter plot below visualizes the relationship between Ekşi entry count and IMDb score between **2008-2011** period. A trend line from simple linear regression is included to highlight the overall trend.
 ![2008](https://github.com/user-attachments/assets/b88aa180-6177-4d82-b6a9-780d7e79b60d)
 
 ```text
@@ -74,8 +74,7 @@ dsa210-project/
 
 
 ## Running the Code
-1. Clone the repo and install dependencies (see `requirements.txt` if available)
-2. Run `scraping.py` to collect entry data
-3. Run `extract_imdb_scores.py` to fetch IMDb ratings
-4. Run `analyze_combined_data.py` for visualization and statistics
+1. Run `scraping.py` to collect entry data
+2. Run `extract_imdb_scores.py` to fetch IMDb ratings
+3. Run `analyze_combined_data.py` for visualization and statistics
 
