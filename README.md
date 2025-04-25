@@ -1,6 +1,6 @@
 # Project Overview
 
-This project analyzes the relationship between the number of entries in **Ekşi Sözlük** (a popular Turkish online forum) about a film and the film's **IMDb score** after release. The goal is to determine whether discussion volume on Ekşi Sözlük can be an indicator of a film's quality as measured by IMDb ratings.
+This project analyzes the relationship between the number of entries in **Ekşi Sözlük** (a popular Turkish online forum) about a film and the film's **IMDb score**. The goal is to determine whether discussion volume on Ekşi Sözlük can be an indicator of a film's quality as measured by IMDb ratings.
 
 ## Key Research Questions
 - Does a higher number of Ekşi Sözlük entries correlate with higher IMDb scores?
