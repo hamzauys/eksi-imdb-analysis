@@ -34,6 +34,17 @@ This indicates a **moderate positive correlation** between the number of Ekşi S
 
 > *Note: Other release windows (e.g., 2016–2019, 2020–2024) were also tested, and results varied. The final result is available in the report document .*
 
+Machine Learning Models
+To explore whether Ekşi Sözlük entry counts can predict IMDb scores, we applied basic machine learning models to each year’s dataset. The models used were:
+
+Linear Regression (assumes a direct linear relationship)
+
+K-Nearest Neighbors (KNN) Regressor (captures local patterns without assuming linearity)
+
+Each model was evaluated using Mean Squared Error (MSE) and R² score.
+While results varied across years, KNN performed better in 2016, whereas Linear Regression remained more stable across all years.
+These findings suggest that the relationship between public discussion volume and film ratings can differ significantly depending on the release period.
+
 ## Visualization
 The scatter plot below visualizes the relationship between Ekşi entry count and IMDb score between **2008-2011** period. A trend line from simple linear regression is included to highlight the overall trend.
 ![2008](https://github.com/user-attachments/assets/b88aa180-6177-4d82-b6a9-780d7e79b60d)
@@ -43,6 +54,7 @@ dsa210-project/
 ├── code/
 │   ├── shared/
 │   │   └── analyze_combined_data.py  # joint analysis
+│   │   └── ml_model_comparison.py  # ML's models application
 │   ├── 2008/
 │   │   ├── scraping_2008.py
 │   │   ├── imdb_2008.py
