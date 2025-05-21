@@ -42,7 +42,7 @@ To explore whether Ekşi Sözlük entry counts can predict IMDb scores, we appli
 **K-Nearest Neighbors** (KNN) Regressor (captures local patterns without assuming linearity)
 
 Each model was evaluated using Mean Squared Error (MSE) and R² score.
-While results varied across years, KNN performed better in 2016, whereas Linear Regression remained more stable across all years.
+While results varied across years, KNN performed better in 2016-2019 period, whereas Linear Regression remained more stable across all years.
 These findings suggest that the relationship between public discussion volume and film ratings can differ significantly depending on the release period.
 
 ## Visualization
@@ -113,6 +113,11 @@ Example:python code/2008/2008imdb.py
 ```bash
 python analyze_combined_data.py
 ```
+#### 4. Run the ML Methods
+```bash
+python ml_model_comparison.py
+```
+
 ## This will generate:
 
 - 2008eksi_entry_counts.csv
@@ -120,6 +125,8 @@ python analyze_combined_data.py
 - 2008imdb_scores.csv
 
 - 2008.png (a visual plot of entry count vs IMDb score)
+
+- The result of ML methods which are linear regression and KNN regressor (k=3).
 
 
 
