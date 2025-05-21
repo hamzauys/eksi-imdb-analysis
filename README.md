@@ -34,12 +34,12 @@ This indicates a **moderate positive correlation** between the number of Ekşi S
 
 > *Note: Other release windows (e.g., 2016–2019, 2020–2024) were also tested, and results varied. The final result is available in the report document .*
 
-Machine Learning Models
+## Machine Learning Models
 To explore whether Ekşi Sözlük entry counts can predict IMDb scores, we applied basic machine learning models to each year’s dataset. The models used were:
 
-Linear Regression (assumes a direct linear relationship)
+**Linear Regression** (assumes a direct linear relationship)
 
-K-Nearest Neighbors (KNN) Regressor (captures local patterns without assuming linearity)
+**K-Nearest Neighbors** (KNN) Regressor (captures local patterns without assuming linearity)
 
 Each model was evaluated using Mean Squared Error (MSE) and R² score.
 While results varied across years, KNN performed better in 2016, whereas Linear Regression remained more stable across all years.
