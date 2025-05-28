@@ -14,6 +14,10 @@ This project analyzes the relationship between the number of entries in **Ekşi 
 - **Statistical Analysis** (correlation tests, hypothesis testing)
 - **Pearson Correlation Test** (to measure linear relationship between entry counts and IMDb ratings)
 - **Hypothesis Testing (P-value Analysis)** (to assess statistical significance of the observed correlations)
+- **Machine Learning Modeling**
+  - K-Nearest Neighbors (KNN) Regressor with varying `k` values
+  - Random Forest Regressor with different `n_estimators` and `max_depth` settings
+  - Evaluation using **MSE** and **R² Score**
 
 ## Dataset
 The data includes a curated list of over 130 films released between **2008 and 2024**, selected to span a wide range of genres, popularity levels, and discussion volumes.
@@ -126,7 +130,7 @@ python ml_model_comparison.py
 
 - 2008.png (a visual plot of entry count vs IMDb score)
 
-- The result of ML methods which are linear regression and KNN regressor (k=3).
+- The result of ML methods which are Random Forest Regressor with different parameters and KNN regressor with different k values such as 1, 2 and 3.
 
 
 
